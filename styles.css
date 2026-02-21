@@ -1,15 +1,4 @@
-#container {
-  margin: 20px;
-}
-
-#container::before {
-  content: "Before Element ";
-  color: #f00;
-  font-size: 20px;
-}
-
-#container::after {
-  content: " After Element";
-  color: #f00;
-  font-size: 20px;
-}
+html, body { margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 16px; } 
+#container { margin: 20px; line-height: 1.2; display: inline-block; } 
+#container::before { content: "Before Element"; color: #f00; font-size: 20px; display: inline-block; margin-right: 8px; } 
+#container::after { content: "After Element"; color: #f00; font-size: 20px; display: inline-block; margin-left: 8px; }
